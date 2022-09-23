@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactComponent } from './contact/contact.component';
-import { HomeComponent } from './home/home.component';
-import { NewsComponent } from './news/news.component';
-import { PresentationsComponent } from './presentations/presentations.component';
-import { PromotionComponent } from './promotion/promotion.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { HomeComponent } from './components/home/home.component';
+import { NewsComponent } from './components/news/news.component';
+import { PresentationsComponent } from './components/presentations/presentations.component';
+import { PromotionComponent } from './components/promotion/promotion.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
