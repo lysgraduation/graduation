@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/graduation/  --no-silent"
+    "deploy": "ng deploy --base-href=/graduation/  --no-silent --name Shinzukyo --email patrickzhuang@hotmail.fr"
   },
   "private": true,
   "dependencies": {
