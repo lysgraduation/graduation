@@ -7,8 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/graduation/",
-    "build_prod": "ng build --prod"
+    "deploy": "ng deploy --base-href=/graduation/  --no-silent"
   },
   "private": true,
   "dependencies": {
