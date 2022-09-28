@@ -39,7 +39,7 @@ jobs:
           npm ci
       - name: Build
         run: |
-          npm run build_prod
+          npm run build --prod
 
       - name: Conventional Changelog Action
         id: changelog
@@ -63,5 +63,5 @@ jobs:
 
       - name: Deploy
         run: |
-          npm run deploy --no-silent
+          npm run deploy
 
