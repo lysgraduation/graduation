@@ -59,8 +59,7 @@ jobs:
           body: ${{ steps.changelog.outputs.clean_changelog }}
 
       - name : list files
-        run: /
-          ls -lrta
+        run: ls -lrta
 
       - name: Deploy
         run: |
